@@ -5,7 +5,7 @@ Docker container which uses ffmpeg to pull a video stream url and creates an mp4
 ## Build image
 
 ```bash
-docker build -t samderdritte/docker-ffmpeg .
+docker build -t spychers/docker-ffmpeg .
 ```
 
 ## Run
@@ -19,7 +19,7 @@ docker run \
     -e AWS_ACCESS_KEY_ID='XXXXXXXXXXXX' \
     -e AWS_SECRET_ACCESS_KEY='XXXXXXXXXXXX' \
     -e AWS_SESSION_TOKEN='XXXXXXXXXXXX' \
-    samderdritte/docker-ffmpeg
+    spychers/docker-ffmpeg
 ```
 After running the above command, the file `output.mp4` will be created in the designated S3 bucket.
 
