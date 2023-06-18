@@ -15,7 +15,7 @@ docker run \
     -e TIMECODE_START_TIME='start-time-for-timecode' \
     -e OUTPUT_FILE_NAME='output.mp4' \
     -e OUTPUT_S3_PATH='s3-bucket-path' \
-    -e AWS_REGION='europe-central-1' \
+    -e AWS_REGION='eu-central-1' \
     -e AWS_ACCESS_KEY_ID='XXXXXXXXXXXX' \
     -e AWS_SECRET_ACCESS_KEY='XXXXXXXXXXXX' \
     -e AWS_SESSION_TOKEN='XXXXXXXXXXXX' \
